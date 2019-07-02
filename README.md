@@ -1,2 +1,2 @@
 # Portfolio
-A Portfolio Page to showcase my projects
+A Portfolio Page to showcase my projects.
