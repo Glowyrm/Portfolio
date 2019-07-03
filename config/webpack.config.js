@@ -3,14 +3,16 @@ const path = require('path');
 const webpack = require('webpack');
 
 const paths = {
-    config:     path.resolve(__dirname, "../", 'config'),
     entry:      path.resolve(__dirname, "../", 'src', 'pages', 'main.js'),
-    output:     path.resolve(__dirname, "../", 'docs')
+    output:     path.resolve(__dirname, "../", 'docs'),
+    
+    source:     path.resolve(__dirname, "../", 'src'),
+    config:     path.resolve(__dirname, "../", 'config')
 }
 
-console.log('\n')
-console.log("entry  is: ", paths.entry,'\n');
-console.log("output is: ", paths.output,'\n');
+// console.log('\n')
+// console.log("entry  is: ", paths.entry,'\n');
+// console.log("output is: ", paths.output,'\n');
 
 module.exports = {    
 
@@ -51,7 +53,7 @@ module.exports = {
 
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, "../", 'src', 'html', 'index-template.html'),
+            template: path.resolve(paths.source, 'html', 'index-template.html'),
             inject: 'body'
         }),
         new webpack.HotModuleReplacementPlugin()
