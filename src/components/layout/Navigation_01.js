@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 export default function Navigation_01() {
     return (
@@ -24,11 +23,6 @@ export default function Navigation_01() {
                         <div className={"nav-item"}>
                                 <a className="nav-link js-scroll-trigger" href="https://github.com/Glowyrm">Portfolio</a>
                         </div>
-                        {/* <Link 
-                            className={"nav-item"} 
-                            to="/">
-                                <div className="nav-link js-scroll-trigger">Portfolio</div>
-                        </Link> */}
                     </div>
                 </div>
 
