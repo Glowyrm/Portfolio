@@ -32,30 +32,36 @@ export default function Home_02() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-3">
-                                    <h5 className="text-white mb-4">Programming Languages</h5>
+                                    <h5 className="text-white mb-4">Languages</h5>
                                     <p>Javascript</p>
                                     <p>Python</p>
                                     <p>SQL</p>
                                     <p>C++</p>
                                 </div>
                                 <div className="col-3">
-                                    <h5 className="text-white mb-4">Frontend Frameworks</h5>
+                                    <h5 className="text-white mb-4">Front-End</h5>
                                     <p>ReactJS</p>
                                     <p>Redux</p>
                                     <p>RXJS</p>
+                                    <p>Web Components</p>
+                                    <p>Webpack</p>
+                                    <p>Gulp</p>
                                 </div>
                                 <div className="col-3">
-                                    <h5 className="text-white mb-4">Backend Frameworks</h5>
+                                    <h5 className="text-white mb-4">Back-End</h5>
                                     <p>NodeJS</p>
                                     <p>Django</p>
                                     <p>PHP</p>
+                                    <p>HandlebarsJS</p>
+                                    <p>Liquid (Shopify)</p>
                                 </div>
                                 <div className="col-3">
-                                    <h5 className="text-white mb-4">Styling and Design</h5>
+                                    <h5 className="text-white mb-4">Design</h5>
                                     <p>CSS</p>
                                     <p>SASS</p>
                                     <p>Bootstrap</p>
-                                    <p>Web Animations API</p>
+                                    <p>CSS Animations</p>
+                                    <p>WAAPI</p>
                                 </div>
                             </div>
                         </div>
