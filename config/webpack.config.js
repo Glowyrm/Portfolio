@@ -44,8 +44,19 @@ module.exports = {
                 exclude: /node_modules/,
                 use: [
                     "style-loader",     // 3. Injects styles into DOM
-                    "css-loader",       // 2. Turns CSS in to Common JS
-                    "sass-loader"       // 1. Turns SASS into CSS
+                    "css-loader",       // 2. Converts CSS in to Common JS
+                    "sass-loader"       // 1. Converts SASS into CSS
+                ]
+            },
+            {
+                test: /\.(png|jpg|gif)$/,
+                use: [
+                    {
+                        loader: 'url-loader',
+                        options: {
+                            limit: 5000
+                        }
+                    }
                 ]
             }
         ]

@@ -1,0 +1,41 @@
+// Variables
+
+// Color overrides
+$enable-gradient: true;
+
+// Set a custom color
+$brown: #5c4d42  !default;
+$darkorange: #FF8C00 !default;
+$chocolate: #D2691E !default;
+$sunsetorange: #fdae55 !default;
+
+$plum: #B397A7 !default;
+$plum2: #633e5a !default;
+
+$blush: #cb95aa !default;
+
+$sugar: #dddcdc !default;
+
+$denim:#AAD0DF !default;
+$denim2: #5f7f9e !default;
+$denim3: #658cc8 !default;
+
+$electricpurple: #bf00ff !default;
+$indigo: #20152c !default;
+
+// Set primary color to orange
+$primary: $denim2 !default;
+$secondary: $sugar !default;
+$danger: $electricpurple !default;
+
+// Font overrides
+$font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
+
+$font-family-serif: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
+
+$font-family-base: $font-family-serif !default;
+
+$headings-font-family: $font-family-sans-serif !default;
+
+// Custom variables
+$navbar-height: 72px;
