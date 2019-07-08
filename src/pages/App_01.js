@@ -11,18 +11,15 @@ import PortfolioContainer_01 from '../components/Portfolio/PortfolioContainer_01
 export default function App_01() {
     const [winHeight, setWinHeight] = useState();
 
-    useEffect(() => {   
-        console.log("Window Height is: ", window.innerHeight);  
+    useEffect(() => {
         setWinHeight(window.innerHeight);
-    }, [])
+    }, []);
 
     return (
         <Router history={browserHistory}>
-            <Navigation_01 myHistory={history} myWinHeight={winHeight}/>
-            <Route exact path="/" render={() => 
-                <Home_02/>
-            }/>
+            <Route exact path="/" component={Home_02}/>
             <Route path="/work" component={PortfolioContainer_01}/>
+            <Navigation_01 myHistory={history} myWinHeight={winHeight}/>
         </Router>
     )
 }
