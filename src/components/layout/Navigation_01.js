@@ -17,25 +17,25 @@ const Navigation_01 = withRouter(({history, location: {pathname}, myWinHeight}) 
         defaultLink: {
             id: "defaultLink",
             name: "Home",
-            route: "/Portfolio/",
+            route: "/home",
             position: 0
         },
         skillsLink: {
             id: "skillsLink",
             name: "Skills",
-            route: "/Portfolio/",
+            route: "/home",
             position: (myWinHeight * .8)
         },
         contactLink: {
             id: "contactLink",
             name: "Contact",
-            route: "/Portfolio/",
+            route: "/home",
             position: (myWinHeight * .8 + 705.4000244140625)
         },
         portfolioLink: {
             id: "portfolioLink",
             name: "Portfolio",
-            route: "/Portfolio/portfolio",
+            route: "/portfolio",
             position: 0
         }
         
