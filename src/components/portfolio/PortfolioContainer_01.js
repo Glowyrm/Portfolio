@@ -20,15 +20,15 @@ export default function PortfolioContainer_01() {
 
             <h2 className="text-white mt-0 text-center mb-4">Portfolio</h2>
 
-            <div class="container">
-                <div class="row">
+            <div className="container">
+                <div className="row">
 
                     <div className="card mx-2 my-2">
                         <div className="row no-gutters">
-                            <div class="col-lg-4 col-md-12 my-auto mx-auto">
+                            <div className="col-lg-4 col-md-12 my-auto mx-auto">
                                 <img className="card-img" src={src_sfi}></img>
                             </div>
-                            <div class="col-lg-8 col-md-12">
+                            <div className="col-lg-8 col-md-12">
                                 <div className="card-body">
                                     <h4 className="card-title">Suplhur Fuel Injection</h4>
                                     <p className="card-text" style={{whiteSpace:"pre-wrap"}}>{ProjectText.SFI}</p>
@@ -38,10 +38,10 @@ export default function PortfolioContainer_01() {
                     </div>
                     <div className="card mx-2 my-2">
                         <div className="row no-gutters">
-                            <div class="col-lg-4 col-md-12 my-auto mx-auto">
+                            <div className="col-lg-4 col-md-12 my-auto mx-auto">
                                 <img className="card-img" src={src_ellafund}></img>
                             </div>
-                            <div class="col-lg-8 col-md-12">
+                            <div className="col-lg-8 col-md-12">
                                 <div className="card-body">
                                     <h4 className="card-title">Ellafund</h4>
                                     <p className="card-text" style={{whiteSpace:"pre-wrap"}}>{ProjectText.ellafund}</p>
@@ -51,10 +51,10 @@ export default function PortfolioContainer_01() {
                     </div>
                     <div className="card mx-2 my-2">
                         <div className="row no-gutters">
-                            <div class="col-lg-4 col-md-12 my-auto mx-auto">
+                            <div className="col-lg-4 col-md-12 my-auto mx-auto">
                                 <img className="card-img" src={src_tsampi}></img>
                             </div>
-                            <div class="col-lg-8 col-md-12">
+                            <div className="col-lg-8 col-md-12">
                                 <div className="card-body">
                                 <h4 className="card-title">Tsampi</h4>
                                     <p className="card-text" style={{whiteSpace:"pre-wrap"}}>{ProjectText.tsampi}</p>
@@ -64,10 +64,10 @@ export default function PortfolioContainer_01() {
                     </div>
                     <div className="card mx-2 my-2">
                         <div className="row no-gutters">
-                            <div class="col-lg-4 col-md-12 my-auto mx-auto">
+                            <div className="col-lg-4 col-md-12 my-auto mx-auto">
                                 <img className="card-img" src={src_cnt}></img>
                             </div>
-                            <div class="col-lg-8 col-md-12">
+                            <div className="col-lg-8 col-md-12">
                                 <div className="card-body">
                                 <h4 className="card-title">Coat and Tails</h4>
                                     <p className="card-text" style={{whiteSpace:"pre-wrap"}}>{ProjectText.cnt}</p>
