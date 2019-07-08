@@ -1,8 +1,8 @@
 import React from 'react'
-import src_sfi from '../../../public/portfolio_SFI.png'
-import src_ellafund from '../../../public/portfolio_EllaFund.png'
-import src_tsampi from '../../../public/portfolio_tsampi.png'
-import src_cnt from '../../../public/portfolio_cnt.png'
+import src_sfi from '../../../public/portfolioSFI.png'
+import src_ellafund from '../../../public/portfolioEllaFund.png'
+import src_tsampi from '../../../public/portfoliotsampi.png'
+import src_cnt from '../../../public/portfoliocnt.png'
 
 export default function PortfolioContainer_01() {
     const ProjectText = {
