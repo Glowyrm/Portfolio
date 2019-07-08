@@ -2,7 +2,7 @@
 // Ref: (Forwarding Refs to Child Components): https://codesandbox.io/s/rwj7z7o7oo
 
 import React, {useEffect, useState} from 'react'
-import { BrowserRouter as Router, Route, browserHistory } from 'react-router-dom';
+import { BrowserRouter as Router, Route, browserHistory } from 'react-router-dom'
 
 import Home_02 from './Home_02'
 import Navigation_01 from '../components/layout/Navigation_01'
