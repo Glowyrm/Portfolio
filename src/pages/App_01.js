@@ -19,10 +19,10 @@ export default function App_01() {
     return (
         <Router history={browserHistory}>
             <Navigation_01 myHistory={history} myWinHeight={winHeight}/>
-            <Route exact path="/home" render={() => 
+            <Route exact path="/" render={() => 
                 <Home_02/>
             }/>
-            <Route path="/portfolio" component={PortfolioContainer_01}/>
+            <Route path="/work" component={PortfolioContainer_01}/>
         </Router>
     )
 }
