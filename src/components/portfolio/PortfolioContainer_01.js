@@ -75,6 +75,19 @@ export default function PortfolioContainer_01() {
                             </div>
                         </div>
                     </div>
+                    <div className="card mx-2 my-2" >
+                        <div className="row no-gutters">
+                            <div className="col-lg-4 col-md-12 my-auto mx-auto">
+                                <div id="img4"></div>
+                            </div>
+                            <div className="col-lg-8 col-md-12">
+                                <div className="card-body">
+                                <h4 className="card-title">Testing</h4>
+                                    <p className="card-text" style={{whiteSpace:"pre-wrap"}}>{ProjectText.cnt}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
