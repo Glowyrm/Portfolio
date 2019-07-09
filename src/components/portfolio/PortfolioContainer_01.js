@@ -1,6 +1,6 @@
 import React from 'react'
 import src_sfi from '../../../public/portfolioSFI.png'
-import src_ellafund from '../../../public/portfolioEllaFund.png'
+import src_ellafund from '../../../public/portfolioellafund.jpg'
 import src_tsampi from '../../../public/portfoliotsampi.png'
 import src_cnt from '../../../public/portfoliocnt.png'
 
