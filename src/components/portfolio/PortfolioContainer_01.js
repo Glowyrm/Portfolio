@@ -1,8 +1,8 @@
 import React from 'react'
-import src_sfi from '../../../public/portfolioSFI.png'
-import src_ellafund from '../../../public/portfolioellafund.jpg'
-import src_tsampi from '../../../public/portfoliotsampi.png'
-import src_cnt from '../../../public/portfoliocnt.png'
+import src_sfi from '../../../public/portfolio_sfi.jpg'
+import src_ellafund from '../../../public/portfolio_ellafund.jpg'
+import src_tsampi from '../../../public/portfolio_tsampi.png'
+import src_cnt from '../../../public/portfolio_cnt.jpg'
 
 export default function PortfolioContainer_01() {
     const ProjectText = {
@@ -75,20 +75,7 @@ export default function PortfolioContainer_01() {
                             </div>
                         </div>
                     </div>
-                    <div className="card mx-2 my-2" >
-                        <div className="row no-gutters">
-                            <div className="col-lg-4 col-md-12 my-auto mx-auto">
-                                <div id="img4"></div>
-                            </div>
-                            <div className="col-lg-8 col-md-12">
-                                <div className="card-body">
-                                <h4 className="card-title">Testing</h4>
-                                    <p className="card-text" style={{whiteSpace:"pre-wrap"}}>{ProjectText.cnt}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                    
                 </div>
             </div>
 
